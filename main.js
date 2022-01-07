@@ -3,7 +3,7 @@
 var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
 let iframes = document.getElementById('latestVideoEmbed')
 async function fetchDataJSON(iframes) {
-  const response = await fetch(reqURL + 'UCgUmIK6sSgyuKp8fHrLFGMQ');
+  const response = await fetch(reqURL + 'UCZTppDId19R2VH6ia5Z4FSg');
   const fullData = await response.json();
   return fullData;
 }
